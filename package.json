@@ -1,13 +1,16 @@
 {
   "name": "encomendas-correios",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tracking of Correios packages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "repository": "https://github.com/tkovs/correios-encomendas",
   "author": "tkovs <joao.rodrigues@arapiraca.ufal.br>",
   "license": "MIT",
-  "keywords": ["Correios", "Rastreio"],
+  "keywords": [
+    "Correios",
+    "Rastreio"
+  ],
   "devDependencies": {
     "@types/jest": "^25.1.4",
     "jest": "^25.1.0",
