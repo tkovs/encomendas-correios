@@ -1,0 +1,9 @@
+{
+  "name": "encomendas-correios",
+  "version": "0.0.1",
+  "description": "Tracking of Correios packages",
+  "main": "index.js",
+  "repository": "https://github.com/tkovs/correios-encomendas",
+  "author": "tkovs <joao.rodrigues@arapiraca.ufal.br>",
+  "license": "MIT"
+}
