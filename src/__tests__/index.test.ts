@@ -8,9 +8,9 @@ describe('track', () => {
   it('should get the info about the code package', async () => {
     const statuses = [
       {
-        Status: 'Objeto entregue ao destinatário',
-        Data: '04/02/2020 | Hora: 11:38',
-        Local: 'CEE CENTRO - Rio De Janeiro / RJ',
+        status: 'Objeto entregue ao destinatário',
+        data: '04/02/2020 | Hora: 11:38',
+        local: 'CEE CENTRO - Rio De Janeiro / RJ',
       },
     ];
 
@@ -18,9 +18,9 @@ describe('track', () => {
       data: `
       <div>
         <div class="linha_status">
-          <li>Status: ${statuses[0].Status}</li> 
-          <li>Data: ${statuses[0].Data}</li> 
-          <li>Local: ${statuses[0].Local}</li> 
+          <li>Status: ${statuses[0].status}</li> 
+          <li>Data: ${statuses[0].data}</li> 
+          <li>Local: ${statuses[0].local}</li> 
         </div>
       </div>
       `,

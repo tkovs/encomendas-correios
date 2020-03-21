@@ -19,7 +19,7 @@ export const track = async (code: string) => {
         const key: any = /^\w+/.exec(text);
         const match = /:\s*(.*)$/.exec(text);
 
-        object[key] = match && match[1];
+        object[key[0].toLowerCase()] = match && match[1];
       });
 
     final.push(object);
