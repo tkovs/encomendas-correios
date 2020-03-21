@@ -1,8 +1,8 @@
-import { track } from '../index';
-import axios from 'axios';
+import { track } from '../index'
+import axios from 'axios'
 
-jest.mock('axios');
-const mockedAxios = axios as jest.Mocked<typeof axios>;
+jest.mock('axios')
+const mockedAxios = axios as jest.Mocked<typeof axios>
 
 describe('track', () => {
   it('should get the info about the code package', async () => {
@@ -12,7 +12,7 @@ describe('track', () => {
         data: '04/02/2020 | Hora: 11:38',
         local: 'CEE CENTRO - Rio De Janeiro / RJ',
       },
-    ];
+    ]
 
     mockedAxios.get.mockResolvedValue({
       data: `
@@ -24,11 +24,11 @@ describe('track', () => {
         </div>
       </div>
       `,
-    });
+    })
 
-    const code = 'PW086958114BR';
-    const response = await track(code);
+    const code = 'PW086958114BR'
+    const response = await track(code)
 
-    expect(response).toEqual(statuses);
-  });
-});
+    expect(response).toEqual(statuses)
+  })
+})
