@@ -1,1 +1,1 @@
-export const Track = (code: string) => `Packet ${code} tracked. Thank you!`;
+export const track = (code: string) => `Packet ${code} tracked. Thank you!`;
