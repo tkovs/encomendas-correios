@@ -9,12 +9,12 @@ export const track = async (code: string) => {
   const html = cheerio.load(data)
   const final: any[] = []
 
-  html('.linha_status').each((_, statusElement) => {
+  html('.linha_status').each((_i, statusElement) => {
     const object: any = {}
 
     html(statusElement)
       .find('li')
-      .each((_, infoElement) => {
+      .each((_j, infoElement) => {
         const text = html(infoElement).text()
         const key: any = /^\w+/.exec(text)
         const match = /:\s*(.*)$/.exec(text)
