@@ -12,6 +12,8 @@
     "Rastreio"
   ],
   "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.17",
     "@types/jest": "^25.1.4",
     "jest": "^25.1.0",
     "prettier": "^1.19.1",
@@ -33,5 +35,9 @@
   },
   "files": [
     "lib/**/*"
-  ]
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3"
+  }
 }
