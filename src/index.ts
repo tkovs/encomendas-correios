@@ -27,5 +27,3 @@ export const track = async (code: string) => {
 
   return final;
 };
-
-track('PW086958114BR');
