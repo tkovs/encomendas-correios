@@ -1,6 +1,6 @@
 {
   "name": "encomendas-correios",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Tracking of Correios packages",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
