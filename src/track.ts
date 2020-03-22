@@ -9,7 +9,7 @@ const track = async (code: string) => {
   const html = cheerio.load(data)
   const final: any[] = []
 
-  html('.linha_status').each((_i, statusElement) => {
+  html('.singlepost .linha_status').each((_i, statusElement) => {
     const object: any = {}
 
     html(statusElement)
