@@ -16,47 +16,156 @@ track('PW086958114BR')
   data: [
     {
       status: 'Objeto entregue ao destinatário',
-      data: '04/02/2020 | Hora: 16:37',
-      local: 'CEE CENTRO - Rio De Janeiro / RJ'
-    },
-    {
-      status: 'Objeto entregue ao destinatário',
-      data: '04/02/2020 | Hora: 16:37',
-      local: 'CEE CENTRO - Rio De Janeiro / RJ'
+      datetime: {
+        date: {
+          day: '04',
+          month: '02',
+          year: '2020'
+        },
+        time: {
+          hour: '16',
+          minute: '37'
+        }
+      },
+      locale: {
+        place: 'CEE CENTRO',
+        city: 'Rio De Janeiro',
+        state: 'RJ'
+      }
     },
     {
       status: 'Objeto saiu para entrega ao destinatário',
-      data: '04/02/2020 | Hora: 11:38',
-      local: 'CEE CENTRO - Rio De Janeiro / RJ'
+      datetime: {
+        date: {
+          day: '04',
+          month: '02',
+          year: '2020'
+        },
+        time: {
+          hour: '11',
+          minute: '38'
+        }
+      },
+      locale: {
+        place: 'CEE CENTRO',
+        city: 'Rio De Janeiro',
+        state: 'RJ'
+      }
     },
     {
       status: 'Objeto encaminhado ',
-      data: '02/02/2020 | Hora: 09:51',
-      origem: 'CTE BENFICA - Rio De Janeiro / RJ',
-      destino: 'CEE CENTRO - Rio De Janeiro / RJ'
+      datetime: {
+        date: {
+          day: '02',
+          month: '02',
+          year: '2020'
+        },
+        time: {
+          hour: '09',
+          minute: '51'
+        }
+      },
+      from: {
+        place: 'CTE BENFICA',
+        city: 'Rio De Janeiro',
+        state: 'RJ'
+      },
+      to: {
+        place: 'CEE CENTRO',
+        city: 'Rio De Janeiro',
+        state: 'RJ'
+      }
     },
     {
       status: 'Objeto encaminhado ',
-      data: '01/02/2020 | Hora: 10:57',
-      origem: 'CTE BENFICA - Rio De Janeiro / RJ',
-      destino: 'CEE CENTRO - Rio De Janeiro / RJ'
+      datetime: {
+        date: {
+          day: '01',
+          month: '02',
+          year: '2020'
+        },
+        time: {
+          hour: '10',
+          minute: '57'
+        }
+      },
+      from: {
+        place: 'CTE BENFICA',
+        city: 'Rio De Janeiro',
+        state: 'RJ'
+      },
+      to: {
+        place: 'CEE CENTRO',
+        city: 'Rio De Janeiro',
+        state: 'RJ'
+      }
     },
     {
       status: 'Objeto encaminhado ',
-      data: '31/01/2020 | Hora: 11:01',
-      origem: 'CTCE CURITIBA - Curitiba / PR',
-      destino: 'CTE BENFICA - Rio De Janeiro / RJ'
+      datetime: {
+        date: {
+          day: '31',
+          month: '01',
+          year: '2020'
+        },
+        time: {
+          hour: '11',
+          minute: '01'
+        }
+      },
+      from: {
+        place: 'CTCE CURITIBA',
+        city: 'Curitiba',
+        state: 'PR'
+      },
+      to: {
+        place: 'CTE BENFICA',
+        city: 'Rio De Janeiro',
+        state: 'RJ'
+      }
     },
     {
       status: 'Objeto encaminhado ',
-      data: '30/01/2020 | Hora: 08:52',
-      origem: 'AC ASSIS CHATEAUBRIAND - Assis Chateaubriand / PR',
-      destino: 'CTCE CURITIBA - Curitiba / PR'
+      datetime: {
+        date: {
+          day: '30',
+          month: '01',
+          year: '2020'
+        },
+        time: {
+          hour: '08',
+          minute: '52'
+        }
+      },
+      from: {
+        place: 'AC ASSIS CHATEAUBRIAND',
+        city: 'Assis Chateaubriand',
+        state: 'PR'
+      },
+      to: {
+        place: 'CTCE CURITIBA',
+        city: 'Curitiba',
+        state: 'PR'
+      }
     },
     {
       status: 'Objeto postado após o horário limite da unidade',
-      data: '29/01/2020 | Hora: 16:46',
-      local: 'AC ASSIS CHATEAUBRIAND - Assis Chateaubriand / PR'
+      datetime: {
+        date: {
+          day: '29',
+          month: '01',
+          year: '2020'
+        },
+        time: {
+          hour: '16',
+          minute: '46'
+        }
+      },
+      locale: {
+        place: 'AC ASSIS CHATEAUBRIAND',
+        city: 'Assis Chateaubriand',
+        state: 'PR'
+      }
     }
   ]
 }
