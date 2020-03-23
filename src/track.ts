@@ -7,10 +7,10 @@ const track = async (code: string) => {
   const response = await axios.get(getUrl(code))
   const { data } = response
   const html = cheerio.load(data)
-  const final: any[] = []
+  const statuses: any[] = []
 
   html('.singlepost .linha_status').each((_i, statusElement) => {
-    const object: any = {}
+    const status: any = {}
 
     html(statusElement)
       .find('li')
@@ -27,14 +27,14 @@ const track = async (code: string) => {
 
         const element = buildElement(key[0].toLowerCase(), value)
         if (element) {
-          object[element.key] = element.value
+          status[element.key] = element.value
         }
       })
 
-    final.push(object)
+    statuses.push(status)
   })
 
-  return final
+  return statuses
 }
 
 export default track
